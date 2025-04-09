@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchBar from './components/SearchBar';
 import WeatherCard from './components/WeatherCard';
 import ErrorMessage from './components/ErrorMessage';
-import Landing from './components/Landing';
+import Landing from './components/landing';
 import Forecast from './components/Forecast';
 import './weather.css';
 import './landing.css';
