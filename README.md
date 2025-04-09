@@ -18,6 +18,31 @@ A sleek and modern React weather app that displays current weather conditions an
 - **API**: [OpenWeatherMap](https://openweathermap.org/api)
 - **Deployment**: Vercel
 
+-  API Integration Details
+This project uses the OpenWeatherMap API to fetch:
+
+Current weather data
+
+5-day weather forecasts
+
+🔑 API Key Setup
+The API key is directly included in the codebase for simplicity.
+
+Note: For production use or if making the project public, it's recommended to move your API key into an environment variable and keep it out of version control.
+
+🔗 Endpoints Used
+Current Weather
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
+
+Forecast
+https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}&units=metric
+
+API Rate Limits
+Plan	Calls per Minute	Data Update Frequency
+Free Tier	60	Every 10 minutes
+
+
+
 ## 🛠️ Installation
 
 ```bash
