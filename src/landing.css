@@ -1,0 +1,57 @@
+.landing {
+    height: 100vh;
+    width: 100%;
+    background-image: url('/landing_background.jpg'); /* Use a stunning weather-related background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  z-index: 1;
+  }
+  
+  .landing-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  .landing h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:15rem;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .landing button {
+    padding: 12px 24px;
+    font-size: 1.3rem;
+    background: linear-gradient(60deg, #ff3939, #feb47b, #0230e5);
+    color: white;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .landing button:hover {
+    background-color: #008ecc;
+  }
+  
